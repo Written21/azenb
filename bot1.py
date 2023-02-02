@@ -8,23 +8,23 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.utils.helper import Helper, HelperMode, ListItem
 
-token = ''
+token  = '5799211113:AAEhOkUjziNzF237UNleZ3NjpJplfvZvJTs'
 
-bot = Bot(token=token)
+bot  =  bot ( token = token )
 
 
 dp = Dispatcher(bot)
 
-phone = '' #qiwi номер
+phone = '79953185958' #qiwi номер
 
-token = '' #qiwi токен
+token = '8dn3os92jndi92hbdu83bx003n' #qiwi токен
 
 publick_key = '' #публичный токен
 
 amount = 99999 # цена за подписку
 
 
-admins = [] #добавь сюда свой ID
+admins = [5816296271] #добавь сюда свой ID
 
 
 profile_button = types.KeyboardButton('Профиль🔮')
